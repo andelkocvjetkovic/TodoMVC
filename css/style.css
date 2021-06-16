@@ -426,6 +426,16 @@ html .clear-completed:active {
   text-decoration: underline;
 }
 
+/*
+  v-cloak should be used with display: none to hide un-compiled mustache
+  https://vuejs.org/v2/api/#v-cloak
+*/
+
+/* [v-cloak] {
+  display: none;
+} */
+
+
 
 
 /*
